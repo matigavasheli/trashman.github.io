@@ -1,0 +1,211 @@
+.spaceDiv{
+  height:100px;
+  width:100%;
+
+}
+.background {
+
+
+
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400%, 400%;
+
+  animation: change 1s ease-in-out infinite;
+
+  height: 120vh;
+  width: 100vw;
+}
+
+@keyframes change{
+
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+
+
+}
+
+.OUTTERBOX{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.box_02{
+  Display: flex;
+  flex-wrap:wrap;
+
+
+  height: 50vh;
+  width: 50vw;
+  opacity: 80%;
+
+}
+
+.TitleGIF{
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  width: 60vw;
+
+  align-items: center;
+
+  color: #272626;
+            // dark grey
+
+
+  font-family: monospace;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 50px;
+}
+.WritingFlex_02{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+
+  align-items: center;
+
+  color: #272626;
+            // dark grey
+
+
+  font-family: monospace;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+
+
+.panic_button{
+
+  height: 10vh;
+  width: 30vw;
+  background-color: white;
+  align-items: center;
+
+  font-size: 30px;
+  text-align: center;
+}
+
+.trashBodyContainer{
+
+display: flex;
+justify-content:flex-start;
+
+height:100vh;
+width:100vw;
+background-color: blue;
+
+}
+
+.TrashWrap1{
+
+display: flex;
+justify-content: flex-start;
+align-content: flex-start;
+flex-direction: column;
+
+height: 100%;
+width: 50%;
+
+background-color: yellow;
+
+}
+
+.TrashWrap1:hover{
+
+  height: auto;
+  width: 80%;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+
+}
+
+.hoverBox_01{
+
+  background-image: url("trashman3.png");
+
+  height: 50%;
+  width: 100%;
+
+
+  font-size: 200px;
+  font-family: helvetica;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: ;
+}
+
+
+.hoverBox_02{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 50%;
+  width: 100%;
+  background-color: red;
+  opacity: 50%;
+}
+
+.hoverBox_01:hover {
+
+ background-color: gold;
+ height: 80%;
+ width: 100%;
+ transition-duration: .5s;
+ transition-timing-function: ease-in-out;
+ transition-property: all;
+
+
+}
+.hoverBox_02:hover {
+
+  background-color: blue;
+  height: 70%;
+  width:100%;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+}
+
+.rightBox{
+  position:relative;
+height:100%;
+width:50%;
+background-image: url("trashman2.jpg");
+}
+
+.rightBox:hover{
+
+height:auto;
+width:70%;
+transition-duration: .5s;
+transition-timing-function: ease-in-out;
+transition-property: all;
+}
+.image_01{
+
+  position: absolute;
+  z-index: 1;
+
+}
+
+.image_02{
+
+  position: absolute;
+  z-index: 0;
+  transform: translateY(30vh);
+}
